@@ -7,6 +7,8 @@ using namespace std;
 
 int main (int argc,char *argv[]) {
 
+    cout << "Este programa solicita un número natural y devuelve la sucesión de mersenne de los n primeros números" << endl;
+
   int prime_position, counter{0}, maybe_prime{2};
   bool returned_value;
 
@@ -29,7 +31,7 @@ int main (int argc,char *argv[]) {
     if (counter == prime_position){
 
       break;
-      
+
     }
 
     maybe_prime++;
