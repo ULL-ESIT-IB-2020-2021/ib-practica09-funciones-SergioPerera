@@ -27,7 +27,7 @@ unsigned long Factorial(unsigned number) {
     case 1:
       return 1;
     default:
-      unsigned long factorial;
+      unsigned long factorial{1};
       for (unsigned i = 1; i <= number; ++i) {
         factorial *= i;
       }
