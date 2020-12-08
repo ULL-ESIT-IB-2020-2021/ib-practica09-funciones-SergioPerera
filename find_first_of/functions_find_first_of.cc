@@ -7,7 +7,7 @@ void Usage (int argc, char *argv[]){}
 
 
 
-int FindFirstOf(string in_word, string in_char){
+void FindFirstOf(string in_word, string in_char){
 
   int word_length{in_word.length()}, counter{0};
   string current_letter = "" ;
@@ -20,6 +20,8 @@ int FindFirstOf(string in_word, string in_char){
     if (current_letter == in_char){
 
       cout << counter - 1 << endl;
+
+      return;
 
     }
     else if (counter == in_word.length()){
