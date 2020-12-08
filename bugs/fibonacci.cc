@@ -45,6 +45,7 @@ int main () {
         next = last + before_last;
         std::cout << next << kSpace;
         before_last = last;
+        last = next;
       }
       break;
   }
