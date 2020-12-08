@@ -2,7 +2,7 @@
 #include <string>
 #include <cmath>
 
-void Usage(int argc,char *argv[]);
+void Usage(int argc,char *argv[]){}
 
 int IsArmstrong(std::string in_number){
   
@@ -20,10 +20,10 @@ int IsArmstrong(std::string in_number){
   if (maybe_armstrong == std::stoi(in_number)){
 
     std::cout << in_number << "is an armstrong number" << std::endl;
-
+    
   }
 
   else {
-    std::cout << in_number << "is not an armstrong number" << std::endl;
+    std::cout << in_number << " is not an armstrong number" << std::endl;
   }
 }
