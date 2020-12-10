@@ -46,7 +46,9 @@ int Mersenne(int in_number){
     int mersenne{0};
 
     mersenne = (pow(2, in_number)) -1;
+    
+    return(mersenne);
+    
 
-    cout << mersenne << endl;
 
 }
